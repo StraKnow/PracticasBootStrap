@@ -100,3 +100,12 @@ body {
       display: none; 
     }
   }
+
+  .jbotmio{
+    border-radius:7px; 
+    background-color:#eee
+  }
+
+  .centrado{
+    text-align: center;
+  }

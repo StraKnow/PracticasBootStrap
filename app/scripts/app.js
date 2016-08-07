@@ -36,6 +36,10 @@ angular
         templateUrl: 'views/page3.html',
       })
 
+      .when('/page4',{
+        templateUrl: 'views/page4.html',
+      })
+
       .when('/acerca', {
         templateUrl: 'views/acerca.html',
       })
