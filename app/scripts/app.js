@@ -40,6 +40,14 @@ angular
         templateUrl: 'views/page4.html',
       })
 
+      .when('/page5',{
+        templateUrl: 'views/page5.html',
+      })
+
+      .when('/page6',{
+        templateUrl: 'views/page6.html',
+      })
+
       .when('/acerca', {
         templateUrl: 'views/acerca.html',
       })
