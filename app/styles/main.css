@@ -109,3 +109,23 @@ body {
   .centrado{
     text-align: center;
   }
+
+  .pre {
+  background-color:#FAFAFA;
+  border:5px solid #00000;
+  padding:10px;
+  overflow:auto;
+  margin:7px;
+  color:#0150c7;
+  
+}
+
+
+
+
+
+        /*
+ * Base structure
+ */
+        
+       
