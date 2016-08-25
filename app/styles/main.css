@@ -103,7 +103,7 @@ body {
 
   .jbotmio{
     border-radius:7px; 
-    background-color:#eee
+    background-color:#eee;
   }
 
   .centrado{
@@ -120,12 +120,10 @@ body {
   
 }
 
-
-
-
-
-        /*
- * Base structure
- */
-        
+ html,
+        body {
+            /*css for full size background image*/
+            background: url(http://p1.pichost.me/i/66/1910819.jpg) no-repeat center center fixed;
+            
+        }
        

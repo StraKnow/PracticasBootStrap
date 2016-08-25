@@ -267,6 +267,391 @@
       </div>
 
 </div><!--Final collapse-->
+<br>
+
+<div class="centrado">
+         <button type="button" class="btn btn-success active" data-toggle="collapse" data-target="#paginacion">(Pugings) - Plugins <span class="caret"></span></button>
+      </div>
+      <div id="paginacion" class="collapse"><!--Botón Collapse-->
+      <br>
+      <div class="panel panel-success">
+         <div class="centrado panel-heading">
+          <h3 class="panel-title">(Modal Plugin) - Modal plugin</h3><!-- titulo-->
+      </div>
+      <div class="panel-body">
+          <div class="jbotmio">
+          <br>
+<div class="centrado">
+<button class = "centrado btn btn-success" data-toggle = "modal" data-target = "#myModal">
+   Ejecutar demo Modal
+</button>
+</div>
+
+<!-- Modal -->
+<div class = "modal fade" id = "myModal" tabindex = "-1" role = "dialog" 
+   aria-labelledby = "myModalLabel" aria-hidden = "true">
+   
+   <div class = "modal-dialog">
+      <div class = "modal-content">
+         
+         <div class = "modal-header">
+            <button type = "button" class = "close" data-dismiss = "modal" aria-hidden = "true">
+                  &times;
+            </button>
+            
+            <h4 class = "modal-title" id = "myModalLabel">
+               Aquí va el título
+            </h4>
+         </div>
+         
+         <div class = "modal-body">
+            Esto es el texto del modal
+         </div>
+         
+         <div class = "modal-footer">
+            <button type = "button" class = "btn btn-default" data-dismiss = "modal">
+               Cerrar
+            </button>
+            
+            <button type = "button" class = "btn btn-success">
+               Enviar cambios
+            </button>
+         </div>
+         
+      </div><!-- /.modal-content -->
+   </div><!-- /.modal-dialog -->
+  
+</div><!-- /.modal -->
+<br>
+<pre class="pre">
+&lt;div class="centrado"&gt;
+  &lt;button class="centrado btn btn-success" data-toggle="modal" data-target="#myModal"&gt;
+    Ejecutar demo Modal
+  &lt;/button&gt;
+&lt;/div&gt;
+
+&lt;div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"&gt;
+
+  &lt;div class="modal-dialog"&gt;
+    &lt;div class="modal-content"&gt;
+
+      &lt;div class="modal-header"&gt;
+        &lt;button type="button" class="close" data-dismiss="modal" aria-hidden="true"&gt;
+          &times;
+        &lt;/button&gt;
+
+        &lt;h4 class="modal-title" id="myModalLabel"&gt;
+               Aquí va el título
+            &lt;/h4&gt;
+      &lt;/div&gt;
+
+      &lt;div class="modal-body"&gt;
+        Esto es el texto del modal
+      &lt;/div&gt;
+
+      &lt;div class="modal-footer"&gt;
+        &lt;button type="button" class="btn btn-default" data-dismiss="modal"&gt;
+          Cerrar
+        &lt;/button&gt;
+
+        &lt;button type="button" class="btn btn-success"&gt;
+          Enviar cambios
+        &lt;/button&gt;
+      &lt;/div&gt;
+
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+&lt;/div&gt;
+</pre>
+
+      <div class="centrado">
+          <a href="" target="_blank" title="Editar en Plunker"><button class="btn btn-success active btn-sm "><b>Editar en Plunker</b></button></a><!--Botón Código-->
+      </div>
+      <br>
+      </div>
+      </div>
+      </div>
+      <br>
+
+<div class="panel panel-success">
+         <div class="centrado panel-heading">
+          <h3 class="panel-title">(Scroll spy Plugin) - Plugin espia de desplazamiento</h3><!-- titulo-->
+      </div>
+      <div class="panel-body">
+          <div class="jbotmio">
+          <br>
+<nav id = "navbar-example" class = "navbar navbar-inverse navbar-static" role = "navigation">
+   
+   <div class = "navbar-header">
+      <button class = "navbar-toggle" type = "button" data-toggle = "collapse" 
+         data-target = ".bs-js-navbar-scrollspy">
+         <span class = "sr-only">Toggle navigation</span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+      </button>
+		
+      <a class = "navbar-brand" href = "#">Espia desplazamiento</a>
+   </div>
+   
+   <div class = "collapse navbar-collapse bs-js-navbar-scrollspy">
+      <ul class = "nav navbar-nav">
+         <li><a href = "#html5">HTML5</a></li>
+         <li><a href = "#css">CSS</a></li>
+         
+         <li class = "dropdown">
+            <a href = "" id = "navbarDrop1" class = "dropdown-toggle" data-toggle = "dropdown">
+               SQL
+               <b class = "caret"></b>
+            </a>
+            
+            <ul class = "dropdown-menu" role = "menu" aria-labelledby = "navbarDrop1">
+               <li><a href = "#jmeter" tabindex = "-1">jmeter</a></li>
+               <li><a href = "#ejb" tabindex = "-1">ejb</a></li>
+               
+               <li class = "divider"></li>
+               <li><a href = "#spring" tabindex = "-1">spring</a></li>
+            </ul>
+            
+         </li>
+      </ul>
+   </div>
+   
+</nav>
+
+<div data-spy = "scroll" data-target = "#navbar-example" data-offset = "0" 
+   style = "height:200px; overflow:auto; position: relative;">
+   <h4 id = "html5">HTML5</h4>
+	
+   <p>HTML5 es la última versión de HTML.
+   El término representa dos conceptos diferentes: Se trata de una nueva versión de HTML, con nuevos elementos, atributos y comportamientos. Contiene un conjunto más amplio de tecnologías que permite a los sitios Web y a las aplicaciones ser más diversas y de gran alcance. HTML5 es la última versión de HTML.
+   El término representa dos conceptos diferentes: Se trata de una nueva versión de HTML, con nuevos elementos, atributos y comportamientos. Contiene un conjunto más amplio de tecnologías que permite a los sitios Web y a las aplicaciones ser más diversas y de gran alcance.</p>
+   
+   <h4 id = "css">CSS</h4>
+   
+   <p>CSS es un lenguaje de hojas de estilos creado para controlar el aspecto o presentación de los documentos electrónicos definidos con HTML y XHTML. CSS es la mejor forma de separar los contenidos y su presentación y es imprescindible para crear páginas web complejas.
+   CSS es un lenguaje de hojas de estilos creado para controlar el aspecto o presentación de los documentos electrónicos definidos con HTML y XHTML. CSS es la mejor forma de separar los contenidos y su presentación y es imprescindible para crear páginas web complejas.</p>
+   
+   <h4 id = "jmeter">jMeter</h4>
+   
+   <p>jMeter is an Open Source testing software. It is 100% pure Java 
+      application for load and performance testing.</p>
+   
+   <h4 id = "ejb">EJB</h4>
+   
+   <p>Enterprise Java Beans (EJB) is a development architecture for building 
+      highly scalable and robust enterprise level applications to be deployed 
+      on J2EE compliant Application Server such as JBOSS, Web Logic etc.</p>
+   
+   <h4 id = "spring">Spring</h4>
+   
+   <p>Spring framework is an open source Java platform that provides 
+      comprehensive infrastructure support for developing robust Java 
+      applications very easily and very rapidly.</p>
+   
+   <p>Spring framework was initially written by Rod Johnson and was first 
+      released under the Apache 2.0 license in June 2003.</p>
+   
+</div>
+<pre class="pre">
+&lt;nav id="navbar-example" class="navbar navbar-inverse navbar-static" role="navigation"&gt;
+
+  &lt;div class="navbar-header"&gt;
+    &lt;button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-js-navbar-scrollspy"&gt;
+      &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+      &lt;span class="icon-bar"&gt;&lt;/span&gt;
+      &lt;span class="icon-bar"&gt;&lt;/span&gt;
+      &lt;span class="icon-bar"&gt;&lt;/span&gt;
+    &lt;/button&gt;
+
+    &lt;a class="navbar-brand" href="#"&gt;Espia desplazamiento&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class="collapse navbar-collapse bs-js-navbar-scrollspy"&gt;
+    &lt;ul class="nav navbar-nav"&gt;
+      &lt;li&gt;&lt;a href="#html5"&gt;HTML5&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#css"&gt;CSS&lt;/a&gt;&lt;/li&gt;
+
+      &lt;li class="dropdown"&gt;
+        &lt;a href="" id="navbarDrop1" class="dropdown-toggle" data-toggle="dropdown"&gt;
+               SQL
+               &lt;b class = "caret"&gt;&lt;/b&gt;
+            &lt;/a&gt;
+
+        &lt;ul class="dropdown-menu" role="menu" aria-labelledby="navbarDrop1"&gt;
+          &lt;li&gt;&lt;a href="#jmeter" tabindex="-1"&gt;jmeter&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#ejb" tabindex="-1"&gt;ejb&lt;/a&gt;&lt;/li&gt;
+
+          &lt;li class="divider"&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href="#spring" tabindex="-1"&gt;spring&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+
+&lt;/nav&gt;
+
+&lt;div data-spy="scroll" data-target="#navbar-example" data-offset="0" style="height:200px; overflow:auto; position: relative;"&gt;
+  &lt;h4 id="html5"&gt;HTML5&lt;/h4&gt;
+
+  &lt;p&gt;HTML5 es la última versión de HTML. El término representa dos conceptos diferentes: Se trata de una nueva versión de HTML, con nuevos elementos, atributos y comportamientos. Contiene un conjunto más amplio de tecnologías que permite a los sitios Web
+    y a las aplicaciones ser más diversas y de gran alcance. HTML5 es la última versión de HTML. El término representa dos conceptos diferentes: Se trata de una nueva versión de HTML, con nuevos elementos, atributos y comportamientos. Contiene un conjunto
+    más amplio de tecnologías que permite a los sitios Web y a las aplicaciones ser más diversas y de gran alcance.&lt;/p&gt;
+
+  &lt;h4 id="css"&gt;CSS&lt;/h4&gt;
+
+  &lt;p&gt;CSS es un lenguaje de hojas de estilos creado para controlar el aspecto o presentación de los documentos electrónicos definidos con HTML y XHTML. CSS es la mejor forma de separar los contenidos y su presentación y es imprescindible para crear páginas
+    web complejas. CSS es un lenguaje de hojas de estilos creado para controlar el aspecto o presentación de los documentos electrónicos definidos con HTML y XHTML. CSS es la mejor forma de separar los contenidos y su presentación y es imprescindible
+    para crear páginas web complejas.&lt;/p&gt;
+
+  &lt;h4 id="jmeter"&gt;jMeter&lt;/h4&gt;
+
+  &lt;p&gt;jMeter is an Open Source testing software. It is 100% pure Java application for load and performance testing.&lt;/p&gt;
+
+  &lt;h4 id="ejb"&gt;EJB&lt;/h4&gt;
+
+  &lt;p&gt;Enterprise Java Beans (EJB) is a development architecture for building highly scalable and robust enterprise level applications to be deployed on J2EE compliant Application Server such as JBOSS, Web Logic etc.&lt;/p&gt;
+
+  &lt;h4 id="spring"&gt;Spring&lt;/h4&gt;
+
+  &lt;p&gt;Spring framework is an open source Java platform that provides comprehensive infrastructure support for developing robust Java applications very easily and very rapidly.&lt;/p&gt;
+
+  &lt;p&gt;Spring framework was initially written by Rod Johnson and was first released under the Apache 2.0 license in June 2003.&lt;/p&gt;
+
+&lt;/div&gt;
+</pre>
+      <div class="centrado">
+          <a href="" target="_blank" title="Editar en Plunker"><button class="btn btn-success active btn-sm "><b>Editar en Plunker</b></button></a><!--Botón Código-->
+      </div>
+      <br>
+      </div>
+      </div>
+      </div>
+      <br>
+
+<div class="panel panel-success">
+         <div class="centrado panel-heading">
+          <h3 class="panel-title">(Tool tip Plugin) - Plugin Herramienta de mensaje</h3><!-- titulo-->
+      </div>
+      <div class="panel-body">
+          <div class="jbotmio">
+          <br>
+ <div class="centrado">
+<h4><b>Ejemplos de Tooltip</b></h4>
+
+Este es un <a href = "#" class = "tooltip-test" data-toggle = "tooltip" 
+   title = "Tooltip estandard"> Tooltip estandard</a>.<br>
+
+Este es un <a href = "#" class = "tooltip-test" data-toggle = "tooltip" 
+   data-placement = "left" title = "Tooltip en la izquierda">Tooltip on Left</a>.<br>
+
+Este es un <a href = "#" data-toggle = "tooltip" data-placement = "top" 
+   title = "Tooltip arriba">Tooltip arriba</a>.<br>
+
+Este es un <a href = "#" data-toggle = "tooltip" data-placement = "bottom"
+   title = "Tooltip on bottom">Tooltip abajo</a>.<br>
+
+Este es un <a href = "#" data-toggle = "tooltip" data-placement = "right" 
+   title = "Tooltip on right">Tooltip en la derecha</a>
+	
+<br>
+
+<h4><b>Ejemplos de Tooltips para botones</b></h4>
+
+<button type = "button" class = "btn btn-default" data-toggle = "tooltip" title = "Tooltip Default">
+   Tooltip estandard
+</button><br><br>
+
+<button type = "button" class = "btn btn-default" data-toggle = "tooltip" 
+   data-placement = "left" title = "Tooltip en la izquierda">
+	
+   Tooltip en la izquierda
+</button><br><br>
+
+<button type = "button" class = "btn btn-default" data-toggle = "tooltip" 
+   data-placement = "top" title = "Tooltip arriba">
+   
+   Tooltip arriba
+</button><br><br>
+
+<button type = "button" class = "btn btn-default" data-toggle = "tooltip" 
+   data-placement = "bottom" title = "Tooltip abajo">
+   
+   Tooltip abajo
+</button><br><br>
+
+<button type = " button" class = " btn btn-default" data-toggle = "tooltip" 
+   data-placement = "right" title = "Tooltip en la derecha">
+   
+   Tooltip en la derecha
+</button>
+</div>
+
+<script>
+   $(function () { $("[data-toggle = 'tooltip']").tooltip(); });
+</script>
+
+<pre class="pre">
+&lt;h4&gt;&lt;b&gt;Ejemplos de Tooltip&lt;/b&gt;&lt;/h4&gt; 
+
+Este es un &lt;a href="#" class="tooltip-test" data-toggle="tooltip" title="Tooltip estandard"&gt; Tooltip estandard&lt;/a&gt;.&lt;br&gt;
+
+Este es un &lt;a href="#" class="tooltip-test" data-toggle="tooltip" data-placement="left" title="Tooltip en la izquierda"&gt;Tooltip on Left&lt;/a&gt;.&lt;br&gt;
+
+Este es un &lt;a href="#" data-toggle="tooltip" data-placement="top" title="Tooltip arriba"&gt;Tooltip arriba&lt;/a&gt;.&lt;br&gt;
+
+Este es un &lt;a href="#" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom"&gt;Tooltip abajo&lt;/a&gt;.&lt;br&gt;
+
+Este es un &lt;a href="#" data-toggle="tooltip" data-placement="right" title="Tooltip on right"&gt;Tooltip en la derecha&lt;/a&gt;&lt;br&gt;
+
+&lt;h4&gt;&lt;b&gt;Ejemplos de Tooltips para botones&lt;/b&gt;&lt;/h4&gt;
+
+&lt;button type="button" class="btn btn-default" data-toggle="tooltip" title="Tooltip Default"&gt;
+  Tooltip estandard
+&lt;/button&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip en la izquierda"&gt;
+  Tooltip en la izquierda
+&lt;/button&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip arriba"&gt;
+  Tooltip arriba
+&lt;/button&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Tooltip abajo"&gt;
+  Tooltip abajo
+&lt;/button&gt;
+&lt;br&gt;
+&lt;br&gt;
+
+&lt;button type=" button" class=" btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip en la derecha"&gt;
+  Tooltip en la derecha
+&lt;/button&gt;
+
+&lt;script&gt;
+  $(function() {
+    $("[data-toggle = 'tooltip']").tooltip();
+  });
+&lt;/script&gt;
+</pre>
+
+      <div class="centrado">
+          <a href="" target="_blank" title="Editar en Plunker"><button class="btn btn-success active btn-sm "><b>Editar en Plunker</b></button></a><!--Botón Código-->
+      </div>
+      <br>
+      </div>
+      </div>
+      </div>
+</div><!--Final collapse-->
 
 	<div class="centrado">
     <ul class="pagination">
@@ -276,7 +661,7 @@
       <li><a href="#/page3/">3</a></li>
       <li><a href="#/page4/">4</a></li>
       <li><a href="#/page5/">5</a></li>
-      <li class="active"><a href="#/page6/">6</a></li>
+      <li class="active"><a href="">6</a></li>
       <li><a href="#/page7/">&raquo;</a></li>
     </ul>
   </div>
