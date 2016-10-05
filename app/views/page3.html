@@ -1,4 +1,5 @@
-<!--Botones Desplegables Dropdowns-->
+<br>
+<br><!--Botones Desplegables Dropdowns-->
 <div class="container">
 
   <div class="centrado">
@@ -1652,6 +1653,8 @@
   <!--collapse-->
   <div class="centrado">
     <ul class="pagination">
+      <li><a href="#/main/" data-toggle = "tooltip" data-placement = "left"
+   title = "Ir al primero">&laquo;&laquo;</a></li>
       <li><a href="#/page2/">&laquo;</a></li>
       <li><a href="#/main/">1</a></li>
       <li><a href="#/page2/">2</a></li>
@@ -1660,7 +1663,15 @@
       <li><a href="#/page5/">5</a></li>
       <li><a href="#/page6/">6</a></li>
       <li><a href="#/page4/">&raquo;</a></li>
+      <li><a href="#/page7/" data-toggle = "tooltip" data-placement = "right"
+   title = "Ir al último">&raquo;&raquo;</a></li>
     </ul>
   </div>
+
+  <script>
+      $(function() {
+        $("[data-toggle = 'tooltip']").tooltip();
+      });
+    </script>
 
 </div>

@@ -1,28 +1,27 @@
-&gt;div class="btn-group btn-group-lg "&lt;
-  
-  &gt;button type="button " class="btn btn-danger active "&lt;Botón 1&gt;/button&lt;
+&lt;button type="button" class="btn btn-default" title="Popover título" data-container="body" data-toggle="popover" data-placement="left" data-content="Algún contenido en la izquierda"$&gt;
 
-  &gt;button type="button " class="btn btn-danger active "&lt;Botón 2&gt;/button&lt;
+  Popover izquierda
+&lt;/button$&gt;
 
-  &gt;button type="button " class="btn btn-danger active "&lt;Botón 3&gt;/button&lt;
+&lt;button type="button" class="btn btn-primary" title="Popover Título" data-container="body" data-toggle="popover" data-placement="top" data-content="Algún contenido arriba"$&gt;
 
-&gt;/div&lt;
+  Popover arriba
+&lt;/button$&gt;
 
-&gt;div class="btn-group btn-group-sm "&lt;
+&lt;button type="button" class="btn btn-success" title="Popover Título" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Algún contenido abajo"$&gt;
 
-  &gt;button type="button " class="btn btn-warning active "&lt;Botón 4&gt;/button&lt;
+  Popover abajo
+&lt;/button$&gt;
 
-  &gt;button type="button " class="btn btn-warning active "&lt;Botón 5&gt;/button&lt;
+&lt;button type="button" class="btn btn-warning" title="Popover Título" data-container="body" data-toggle="popover" data-placement="right" data-content="Algún contenido en la derecha"$&gt;
 
-  &gt;button type="button " class="btn btn-warning active "&lt;Botón 6&gt;/button&lt;
+  Popover derecha
+&lt;/button$&gt;
 
-&gt;/div&lt;
-&gt;div class="btn-group btn-group-xs "&lt;
 
-  &gt;button type="button " class="btn btn-success active "&lt;Botón 7&gt;/button&lt;
 
-  &gt;button type="button " class="btn btn-success active "&lt;Botón 8&gt;/button&lt;
-
-  &gt;button type="button " class="btn btn-success active "&lt;Botón 9&gt;/button&lt;
-
-&gt;/div&lt;
+&lt;script$&gt;
+  $(function() {
+    $("[data-toggle = 'popover']").popover();
+  });
+&lt;/script$&gt;

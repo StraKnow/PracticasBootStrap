@@ -58,6 +58,11 @@ angular
 
 
 
+      .when('/page7', {
+        templateUrl: 'views/page7.html',
+        controller: 'Page7Ctrl',
+        controllerAs: 'page7'
+      })
       .otherwise({
         redirectTo: '/'
       });

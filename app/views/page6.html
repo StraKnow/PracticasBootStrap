@@ -1,3 +1,5 @@
+<br>
+<br>
 <div class="container">
 	
 	<div class="centrado">
@@ -542,20 +544,20 @@
  <div class="centrado">
 <h4><b>Ejemplos de Tooltip</b></h4>
 
-Este es un <a href = "#" class = "tooltip-test" data-toggle = "tooltip" 
+Este es un <a href = "" class = "tooltip-test" data-toggle = "tooltip" 
    title = "Tooltip estandard"> Tooltip estandard</a>.<br>
 
-Este es un <a href = "#" class = "tooltip-test" data-toggle = "tooltip" 
+Este es un <a href = "" class = "tooltip-test" data-toggle = "tooltip" 
    data-placement = "left" title = "Tooltip en la izquierda">Tooltip on Left</a>.<br>
 
-Este es un <a href = "#" data-toggle = "tooltip" data-placement = "top" 
+Este es un <a href = "" data-toggle = "tooltip" data-placement = "top" 
    title = "Tooltip arriba">Tooltip arriba</a>.<br>
 
-Este es un <a href = "#" data-toggle = "tooltip" data-placement = "bottom"
-   title = "Tooltip on bottom">Tooltip abajo</a>.<br>
+Este es un <a href = "" data-toggle = "tooltip" data-placement = "bottom"
+   title = "Tooltip abajo">Tooltip abajo</a>.<br>
 
-Este es un <a href = "#" data-toggle = "tooltip" data-placement = "right" 
-   title = "Tooltip on right">Tooltip en la derecha</a>
+Este es un <a href = "" data-toggle = "tooltip" data-placement = "right" 
+   title = "Tooltip en la derecha">Tooltip en la derecha</a>
 	
 <br>
 
@@ -652,18 +654,487 @@ Este es un &lt;a href="#" data-toggle="tooltip" data-placement="right" title="To
       </div>
       </div>
 </div><!--Final collapse-->
+<br>
+
+<div class="centrado">
+         <button type="button" class="btn btn-warning active" data-toggle="collapse" data-target="#popover">(Popover Plugin) - Popover Plugin <span class="caret"></span></button>
+      </div>
+      <div id="popover" class="collapse"><!--Botón Collapse-->
+      <br>
+      <div class="panel panel-warning">
+         <div class="centrado panel-heading">
+          <h3 class="panel-title">(Popover basic) - Popover básico</h3><!-- titulo-->
+      </div>
+      <div class="panel-body">
+          <div class="jbotmio">
+          <br>
+<div class = "container" style = "padding: 100px 50px 10px;" >
+   <button type = "button" class = "btn btn-default" title = "Popover título"  
+      data-container = "body" data-toggle = "popover" data-placement = "left" 
+      data-content = "Algún contenido en la izquierda">Popover izquierda
+   </button>
+   
+   <button type = "button" class = "btn btn-primary" title = "Popover Título"  
+      data-container = "body" data-toggle = "popover" data-placement = "top" 
+      data-content = "Algún contenido arriba">Popover arriba
+   </button>
+   
+   <button type = "button" class = "btn btn-success" title = "Popover Título"  
+      data-container = "body" data-toggle = "popover" data-placement = "bottom" 
+      data-content = "Algún contenido abajo">Popover abajo
+   </button>
+   
+   <button type = "button" class = "btn btn-warning" title = "Popover Título"  
+      data-container = "body" data-toggle = "popover" data-placement = "right" 
+      data-content = "Algún contenido en la derecha">Popover derecha
+   </button>
+   
+</div>
+
+<script>
+   $(function (){
+      $("[data-toggle = 'popover']").popover();
+   });
+</script>
+<pre class="pre">
+&lt;button type="button" class="btn btn-default" title="Popover título" data-container="body" data-toggle="popover" data-placement="left" data-content="Algún contenido en la izquierda"&gt;Popover izquierda
+&lt;/button&gt;
+
+&lt;button type="button" class="btn btn-primary" title="Popover Título" data-container="body" data-toggle="popover" data-placement="top" data-content="Algún contenido arriba"&gt;Popover arriba
+&lt;/button&gt;
+
+&lt;button type="button" class="btn btn-success" title="Popover Título" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Algún contenido abajo"&gt;Popover abajo
+&lt;/button&gt;
+
+&lt;button type="button" class="btn btn-warning" title="Popover Título" data-container="body" data-toggle="popover" data-placement="right" data-content="Algún contenido en la derecha"&gt;Popover derecha
+&lt;/button&gt;
+
+&lt;script&gt;
+  $(function() {
+    $("[data-toggle = 'popover']").popover();
+  });
+&lt;/script&gt;
+</pre>
+<br>
+      <div class="centrado">
+          <a href="" target="_blank" title="Editar en Plunker"><button class="btn btn-warning active btn-sm "><b>Editar en Plunker</b></button></a><!--Botón Código-->
+      </div>
+      <br>
+      </div>
+      </div>
+      </div>
+
+</div><!--Final collapse-->
+<br>
+
+<div class="centrado">
+         <button type="button" class="btn btn-info active" data-toggle="collapse" data-target="#plugboton">(Button Plugin) - Plugin de botón <span class="caret"></span></button>
+      </div>
+      <div id="plugboton" class="collapse"><!--Botón Collapse-->
+      <br>
+      <div class="panel panel-info">
+         <div class="centrado panel-heading">
+          <h3 class="panel-title">(Button Plugin) - Plugin de botón</h3><!-- titulo-->
+      </div>
+      <div class="panel-body">
+          <div class="jbotmio">
+          <br>
+<h2>Click en cada uno de los botones para ver los efectos de los metodos</h2>
+<h4>Ejemplo para demostrar el método .button('toggle')</h4>
+
+<div id = "myButtons1" class = "bs-example">
+   <button type = "button" class = "btn btn-info">Dar Click</button>
+</div>
+
+<h4>Ejemplo para demostrar el método .button('loading')</h4>
+
+<div id = "myButtons2" class = "bs-example">
+   <button type = "button" class = "btn btn-info" data-loading-text = "Cargando...">
+      Dar Click
+   </button>
+</div>
+
+<h4>Ejemplo para demostrar el método .button('reset')</h4>
+
+<div id = "myButtons3" class = "bs-example">
+   <button type = "button" class = "btn btn-info" data-loading-text = "Cargando...">
+      Dar Click
+   </button>
+</div>
+
+<h4>Ejemplo para demostrar el método .button('string')</h4>
+
+<button type = "button" class = "btn btn-info" id = "myButton4" 
+   data-complete-text = "Carga finalizada">
+   Dar Click
+</button>
+
+<script type = "text/javascript">
+   $(function () {
+      $("#myButtons1 .btn").click(function(){
+         $(this).button('toggle');
+      });
+   });
+   
+   $(function() { 
+      $("#myButtons2 .btn").click(function(){
+         $(this).button('loading').delay(1000).queue(function() {
+         });        
+      });
+   });   
+   
+   $(function() { 
+      $("#myButtons3 .btn").click(function(){
+         $(this).button('loading').delay(1000).queue(function() {
+            $(this).button('reset');
+         });        
+      });
+   });  
+   
+   $(function() { 
+      $("#myButton4").click(function(){
+         $(this).button('loading').delay(1000).queue(function() {
+            $(this).button('complete');
+         });        
+      });
+   }); 
+</script> 
+<pre class="pre">
+&lt;h4&gt;Ejemplo para demostrar el método .button('toggle')&lt;/h4&gt;
+
+&lt;div id="myButtons1" class="bs-example"&gt;
+  &lt;button type="button" class="btn btn-info"&gt;Dar Click&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;h4&gt;Ejemplo para demostrar el método .button('loading')&lt;/h4&gt;
+
+&lt;div id="myButtons2" class="bs-example"&gt;
+  &lt;button type="button" class="btn btn-info" data-loading-text="Cargando..."&gt;
+    Dar Click
+  &lt;/button&gt;
+&lt;/div&gt;
+
+&lt;h4&gt;Ejemplo para demostrar el método .button('reset')&lt;/h4&gt;
+
+&lt;div id="myButtons3" class="bs-example"&gt;
+  &lt;button type="button" class="btn btn-info" data-loading-text="Cargando..."&gt;
+    Dar Click
+  &lt;/button&gt;
+&lt;/div&gt;
+
+&lt;h4&gt;Ejemplo para demostrar el método .button('string')&lt;/h4&gt;
+
+&lt;button type="button" class="btn btn-info" id="myButton4" data-complete-text="Carga finalizada"&gt;
+  Dar Click
+&lt;/button&gt;
+
+&lt;script type="text/javascript"&gt;
+  $(function() {
+    $("#myButtons1 .btn").click(function() {
+      $(this).button('toggle');
+    });
+  });
+
+  $(function() {
+    $("#myButtons2 .btn").click(function() {
+      $(this).button('loading').delay(1000).queue(function() {});
+    });
+  });
+
+  $(function() {
+    $("#myButtons3 .btn").click(function() {
+      $(this).button('loading').delay(1000).queue(function() {
+        $(this).button('reset');
+      });
+    });
+  });
+
+  $(function() {
+    $("#myButton4").click(function() {
+      $(this).button('loading').delay(1000).queue(function() {
+        $(this).button('complete');
+      });
+    });
+  });
+&lt;/script&gt;
+</pre>
+
+      <div class="centrado">
+          <a href="" target="_blank" title="Editar en Plunker"><button class="btn btn-info active btn-sm "><b>Editar en Plunker</b></button></a><!--Botón Código-->
+      </div>
+      <br>
+      </div>
+      </div>
+      </div>
+</div><!--Final collapse-->
+<br>
+
+<div class="centrado">
+         <button type="button" class="btn btn-danger active" data-toggle="collapse" data-target="#accor">(Collapse Plugin) - Plugin colapso <span class="caret"></span></button>
+      </div>
+      <div id="accor" class="collapse"><!--Botón Collapse-->
+      <br>
+      <div class="panel panel-danger">
+         <div class="centrado panel-heading">
+          <h3 class="panel-title">(Accordion) - Acordeón</h3><!-- titulo-->
+      </div>
+      <div class="panel-body">
+          <div class="jbotmio">
+          <br>
+          
+<div class = "panel-group" id = "accordion">
+   <div class = "panel panel-default">
+      
+      <div class = "panel-heading">
+         <h4 class = "panel-title">
+            <a data-toggle = "collapse" data-parent = "#accordion" data-target = "#collapseOne" style="cursor:pointer">
+               Click aquí para expandir. Click nuevamente para collapsar la sección 1
+            </a>
+         </h4>
+      </div>
+      
+      <div id = "collapseOne" class = "panel-collapse collapse in">
+         <div class = "panel-body">
+            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred 
+               nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+         </div>
+      </div>
+      
+   </div>
+   
+   <div class = "panel panel-default">
+      <div class = "panel-heading">
+         <h4 class = "panel-title">
+            <a data-toggle = "collapse" data-parent = "#accordion" data-target = "#collapseTwo" style="cursor:pointer">
+               Click aquí para expandir. Click nuevamente para collapsar la sección 2
+            </a>
+         </h4>
+      </div>
+
+      <div id = "collapseTwo" class = "panel-collapse collapse">
+         <div class = "panel-body">
+            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt 
+               sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+         </div>
+      </div>
+      
+   </div>
+   
+   <div class = "panel panel-default">
+      <div class = "panel-heading">
+         <h4 class = "panel-title">
+            <a data-toggle = "collapse" data-parent = "#accordion" data-target = "#collapseThree" style="cursor:pointer">
+               Click aquí para expandir. Click nuevamente para collapsar la sección 3
+            </a>
+         </h4>
+      </div>
+     
+      <div id = "collapseThree" class = "panel-collapse collapse">
+         <div class = "panel-body">
+            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt 
+               sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+         </div>
+      </div>
+     
+   </div>
+   
+</div>
+<pre class="pre">
+&lt;div class="panel-group" id="accordion"&gt;
+  &lt;div class="panel panel-default"&gt;
+
+    &lt;div class="panel-heading"&gt;
+      &lt;h4 class="panel-title"&gt;
+            &lt;a data-toggle = "collapse" data-parent = "#accordion" data-target = "#collapseOne"&gt;
+               Click aquí para expandir. Click nuevamente para collapsar la sección 1
+            &lt;/a&gt;
+         &lt;/h4&gt;
+    &lt;/div&gt;
+
+    &lt;div id="collapseOne" class="panel-collapse collapse in"&gt;
+      &lt;div class="panel-body"&gt;
+        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class="panel panel-default"&gt;
+    &lt;div class="panel-heading"&gt;
+      &lt;h4 class="panel-title"&gt;
+            &lt;a data-toggle = "collapse" data-parent = "#accordion" data-target = "#collapseTwo"&gt;
+               Click aquí para expandir. Click nuevamente para collapsar la sección 2
+            &lt;/a&gt;
+         &lt;/h4&gt;
+    &lt;/div&gt;
+
+    &lt;div id="collapseTwo" class="panel-collapse collapse"&gt;
+      &lt;div class="panel-body"&gt;
+        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;div class="panel panel-default"&gt;
+    &lt;div class="panel-heading"&gt;
+      &lt;h4 class="panel-title"&gt;
+            &lt;a data-toggle = "collapse" data-parent = "#accordion" data-target = "#collapseThree"&gt;
+               Click aquí para expandir. Click nuevamente para collapsar la sección 3
+            &lt;/a&gt;
+         &lt;/h4&gt;
+    &lt;/div&gt;
+
+    &lt;div id="collapseThree" class="panel-collapse collapse"&gt;
+      &lt;div class="panel-body"&gt;
+        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+&lt;/div&gt;
+</pre>
+      <div class="centrado">
+          <a href="" target="_blank" title="Editar en Plunker"><button class="btn btn-danger active btn-sm "><b>Editar en Plunker</b></button></a><!--Botón Código-->
+      </div>
+      <br>
+      </div>
+      </div>
+      </div>
+      <br>
+
+      <div class="panel panel-danger">
+         <div class="centrado panel-heading">
+          <h3 class="panel-title">(Simple Collapsible) - Colapso simple</h3><!-- titulo-->
+      </div>
+      <div class="panel-body">
+          <div class="jbotmio">
+          <br>
+<div class="centrado">          
+<button type = "button" class = "btn btn-danger" data-toggle = "collapse" data-target = "#colasimple" >
+   Colapso simple <span class="caret"></span>
+</button>
+</div>
+
+<div id = "colasimple" class = "collapse">
+   Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+      sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+</div>
+<pre class="pre">
+&lt;button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#colasimple"&gt;
+  Colapso simple
+&lt;/button&gt;
+
+&lt;div id="colasimple" class="collapse in"&gt;
+  Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+&lt;/div&gt;
+</pre>
+      <div class="centrado">
+          <a href="" target="_blank" title="Editar en Plunker"><button class="btn btn-danger active btn-sm "><b>Editar en Plunker</b></button></a><!--Botón Código-->
+      </div>
+      <br>
+      </div>
+      </div>
+      </div>
+      <br>
+
+      <div class="panel panel-danger">
+         <div class="centrado panel-heading">
+          <h3 class="panel-title">(Eventos collapse) - Eventos en colapso</h3><!-- titulo-->
+      </div>
+      <div class="panel-body">
+          <div class="jbotmio">
+          <br>
+<div class = "panel-group" id = "accordion">
+   <div class = "panel panel-danger">
+   
+      <div class = "panel-heading">
+         <h4 class = "panel-title">
+            <a data-toggle = "collapse" data-parent = "#accordion" data-target = "#collapseexample" style="cursor:pointer">
+               Click aquí para expandir. Click de nuevo para collpsar la sección "Shown event"
+            </a>
+         </h4>
+      </div>
+      
+      <div id = "collapseexample" class = "panel-collapse collapse">
+         <div class = "panel-body">
+            Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+               sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+         </div>
+      </div>
+      
+   </div>
+</div>
+
+<script type = "text/javascript">
+   $(function () { 
+      $('#collapseexample').on('show.bs.collapse', function () {
+         alert('Hey, esta es una alerta que se muestra cuando se expande');
+      })
+   });
+</script>
+<pre class="pre">
+&lt;div class="panel-group" id="accordion"&gt;
+  &lt;div class="panel panel-danger"&gt;
+
+    &lt;div class="panel-heading"&gt;
+      &lt;h4 class="panel-title"&gt;
+            &lt;a data-toggle = "collapse" data-parent = "#accordion" data-target = "#collapseexample" style="cursor:pointer"&gt;
+               Click aquí para expandir. Click de nuevo para collpsar la sección "Shown event"
+            &lt;/a&gt;
+         &lt;/h4&gt;
+    &lt;/div&gt;
+
+    &lt;div id="collapseexample" class="panel-collapse collapse"&gt;
+      &lt;div class="panel-body"&gt;
+        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+  $(function() {
+    $('#collapseexample').on('show.bs.collapse', function() {
+      alert('Hey, esta es una alerta que se muestra cuando se expande');
+    })
+  });
+&lt;/script&gt;
+</pre>
+
+      <div class="centrado">
+          <a href="" target="_blank" title="Editar en Plunker"><button class="btn btn-danger active btn-sm "><b>Editar en Plunker</b></button></a><!--Botón Código-->
+      </div>
+      <br>
+      </div>
+      </div>
+      </div>
+</div><!--Final collapse-->
+
 
 	<div class="centrado">
     <ul class="pagination">
-      <li><a href="#/page5/">&laquo;</a></li>
-      <li><a href="#/main/">1</a></li>
+      <li><a href="#/main/" data-toggle = "tooltip" data-placement = "left"
+   title = "Ir al primero">&laquo;&laquo;</a></li>
+      <li><a href="#/page5/" >&laquo;</a></li>
       <li><a href="#/page2/">2</a></li>
       <li><a href="#/page3/">3</a></li>
       <li><a href="#/page4/">4</a></li>
       <li><a href="#/page5/">5</a></li>
       <li class="active"><a href="">6</a></li>
+      <li><a href="#/page7/">7</a></li>
       <li><a href="#/page7/">&raquo;</a></li>
+      <li><a href="#/page7/" data-toggle = "tooltip" data-placement = "right"
+   title = "Ir al último">&raquo;&raquo;</a></li>
     </ul>
   </div>
+
+  <script>
+      $(function() {
+        $("[data-toggle = 'tooltip']").tooltip();
+      });
+    </script>
 </div>
 
